@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Mines",
+  "description": "A high-stakes Mines game where you test your luck to find gems and avoid mines. Set your bet, choose the number of mines, and cash out with increasing multipliers. Built with React and styled with Tailwind CSS.",
+  "requestFramePermissions": []
+}
