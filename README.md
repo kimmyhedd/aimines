@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Gemini Mines
 
-# Run and deploy your AI Studio app
+A high-stakes Mines game where you test your luck to find gems and avoid mines. Set your bet, choose the number of mines, and cash out with increasing multipliers.
 
-This contains everything you need to run your app locally.
+## How to Deploy to GitHub Pages
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Ft8dumftFQwOxRqcJmHNHlWrQVncqLmj
+This project is set up to be deployed directly to GitHub Pages without any build steps.
 
-## Run Locally
+1.  **Create a new repository** on GitHub.
+2.  **Upload all the project files** (`index.html`, `index.tsx`, `App.tsx`, `components/`, `utils/`, `types.ts`, `metadata.json`) to your new repository.
+3.  **Enable GitHub Pages** for your repository:
+    *   Go to your repository's **Settings** tab.
+    *   In the left sidebar, click on **Pages**.
+    *   Under "Build and deployment", select the **Source** as "Deploy from a branch".
+    *   Choose the branch you uploaded your files to (usually `main` or `master`).
+    *   Select the folder as `/ (root)`.
+    *   Click **Save**.
+4.  **That's it!** GitHub will build and deploy your site. It might take a few minutes. You'll find the link to your live site on the same Pages settings page.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The `index.html` file includes Babel Standalone, which transpiles the TypeScript/React code directly in the browser, so you don't need to worry about `npm`, `node`, or build commands.
